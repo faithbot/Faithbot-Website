@@ -446,24 +446,29 @@ ol li ul li {
 	padding: 5px 10px 10px 0
 }
 
-/* List of skills section */
+
+/* Begin skill box section */
 .skill-items {
 	text-align: center;
-	width: 80%;
+	width: 100%;
+	max-width: 1200px;
 	margin: 28px auto 0 auto
 }
 
 .skill-item {
+	border: 1px solid #ddd;
+	display: block;
 	text-align: center;
 	box-sizing: border-box;
 	vertical-align: top;
 	width: 31%;
-	max-width: 500px;
+	max-width: 400px;
 	display: inline-block;
 	position: relative;
 	margin: 0 1% 20px 1%
 }
 
+/*
 .skill-item {
 	display: block;
 	border: 1px solid #ddd;
@@ -500,33 +505,37 @@ ol li ul li {
 }
 
 @media screen and (max-width:1500px) {
-	.portfolio-items {
+	.skill-items {
 		width: 98%;
 		margin: 0 1% 0 1%
 	}
 }
 
 @media screen and (max-width:1300px) {
-	.portfolio-item {
+	.skill-item {
 		width: 48%
 	}
 }
 
 @media screen and (max-width:1000px) {
-	.portfolio-item .description {
+	.skill-item .description {
 		opacity: 1
 	}
 }
 
 @media screen and (max-width:680px) {
-	.portfolio-items {
+	.skill-items {
 		margin: 25px auto 0 auto
 	}
-	.portfolio-item {
+	.skill-item {
 		width: 100%;
 		margin: 0 0 20px 0
 	}
 }
+*/
+
+/* end skill boxes */
+
 
 .left-bar {
 	box-sizing: border-box;
