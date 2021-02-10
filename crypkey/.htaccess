@@ -1,0 +1,37 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+Options +FollowSymLinks
+RewriteEngine On
+
+Redirect 301 /support/full_eval_request.php http://www.crypkey.com/request-instant.php
+
+## redirects non-www to www ##
+RewriteCond %{HTTP_HOST} ^crypkey.com
+RewriteRule (.*) http://www.crypkey.com/$1 [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^secureform\.html$ https://www.crypkey.com/dlm/request-dlm-demo.php [L,R=301]
+
+## blocks bots ##
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
+
+## Disable server signature ##
+ServerSignature Off
+
+ErrorDocument 404 http://www.crypkey.com/404.html

@@ -1,0 +1,106 @@
+/* contact page styling */
+
+.left {
+ width: 50%;
+ float: left;
+}
+
+.right {
+ width: 40%;
+ float: right;
+ padding: 100px 5% 5% 5%;
+}
+
+legend {
+ color: #ff7c00;
+ font-size: 100%;
+}
+
+.right h2 {
+ text-align: left;
+ font-size: 200%;
+ color: #ff7c00;
+ padding: 0px 0px 6px 0px;
+}
+
+.right h3 {
+ font-size: 160%;
+ padding: 15px 0px 0px 0px;
+}
+
+.right h4 {
+ color: #3f3f3f;
+ font-size: 130%;
+ padding: 10px 0px 0px 0px;
+}
+
+.right h5 {
+ font: 100% Helvetica, ariel, sans-serif;
+ color: #2E2A59; 
+ font-weight: 600;
+ padding: 3px 0px 0px 0px;
+}
+
+.right p {
+ font: 100% Helvetica, ariel, sans-serif;
+ margin: 5px 0px 0px 0px;
+ font-weight: 200;
+}
+
+/* divider line */
+.content hr {
+ background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ border: 0; 
+ height: 1px; 
+ margin: 20px 0px 10px 0px;
+}
+
+
+.right a:link,
+.right a:visited {
+ text-decoration: none;
+ color: #7551a1;
+}
+
+.right a:hover,
+.right a:active {
+ color: black;
+}
+
+.left a:link,
+.left a:visited {
+ text-decoration: none;
+ color: #7551a1;
+}
+
+.left a:hover,
+.left a:active {
+ color: black;
+}
+
+@media screen and (max-width: 800px) {
+
+.left {
+ width: 100%;
+ float: none;
+}
+
+.right {
+ width: 85%;
+ float: none;
+ padding: 10px 5% 5% 5%;
+}
+
+
+
+
+
+
+
+
+
+
+

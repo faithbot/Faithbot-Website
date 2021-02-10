@@ -1,0 +1,6 @@
+### BEGIN AUTOMATICALLY GENERATED SECTION (CP) ###
+AuthName "Password-protected resource"
+AuthType Basic
+AuthUserFile e:\web\public_html\nbozek\securedownloads\.htpasswd
+Require valid-user
+### END AUTOMATICALLY GENERATED SECTION (CP) ###

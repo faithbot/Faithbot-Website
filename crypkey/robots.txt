@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /test/
+Disallow: /downloads/
+Disallow: /securedownloads/
+Disallow: /casperbackup/
+Sitemap: http://www.crypkey.com/sitemap.xml
