@@ -25,7 +25,7 @@ img {
 	margin: 0
 }
 
-h1.subtle {
+.subtletext {
 	font-size: 100%;
 	font-weight: normal;
 	color: #777;
@@ -34,7 +34,7 @@ h1.subtle {
 	margin: 0
 }
 
-h1.subtle strong {
+.subtletext strong {
 	color: #555
 }
 
@@ -466,6 +466,10 @@ ol li ul li {
 	display: inline-block;
 	position: relative;
 	margin: 0 1% 20px 1%
+}
+
+.skill-item h3 {
+	Margin: 0;
 }
 
 /*

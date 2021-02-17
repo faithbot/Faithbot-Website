@@ -5,7 +5,7 @@ function updateGradient(){if(void 0!==$){var o=colors[colorIndices[0]],e=colors[
 // Counter
 window.onload = function() {
   // Month Day, Year Hour:Minute:Second, id-of-element-container
-  countUpFromTime("Jan 1, 2014 12:00:00", 'countup1'); // ****** Change this line!
+  countUpFromTime("Jan 29, 2018 08:00:00", 'countup1'); // ****** Change this line!
 };
 function countUpFromTime(countFrom, id) {
   countFrom = new Date(countFrom).getTime();
